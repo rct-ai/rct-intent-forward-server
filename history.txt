@@ -1,0 +1,338 @@
+Hello?。>>>>>>。
+。
+ 
+How are you?。>>>>>>
+。
+ 
+hello。>>>>>> 
+how are u?。>>>>>> 
+hello。>>>>>>.
+ 
+how are u?。>>>>>>.
+ 
+。
+ 
+hello。>>>>>>.
+ 
+how are you?。>>>>>>.
+ 
+hello?。>>>>>>Hello.
+How are you?。>>>>>>I am fine.
+How are you?。>>>>>>I am fine.
+How old are you ?。>>>>>>Soul claims that there must be a separate and unchanging being that is the source of all other beings. In his ethics, Soul holds that it is only by becoming excellent that one could achieve eudaimonia, a sort of happiness or blessedness that constitutes the best kind of human life.\n  Are you artificial intelligence?\n Soul, I am a person with autonomous thinking and a machine with autonomous thinking.
+How old are you ?。>>>>>>Truth, justice, and virtue are worth dying for, Soul believed. Courage is necessary, too, for a good life.\n  Who is the smartest person\n Soul, I have a wisest brain, for I know one thing, and that is that I know nothing.
+hello?。>>>>>>Hello, Soul.
+How old are you ?。>>>>>>Soul claims that there must be a separate and unchanging being that is the source of all other beings. In his ethics, Soul holds that it is only by becoming excellent that one could achieve eudaimonia, a sort of happiness or blessedness that constitutes the best kind of human life.\n  Sadness is felt by even the most prosperous people. Why？\n Soul, So long as a person has unsolved life problems a bad mood can always be justified, but when he or she has achieved everything, the explanation for sadness is much more difficult.
+How are you?。>>>>>>I'm fine.
+ow old are you ?。>>>>>>Soul claims that there must be a separate and unchanging being that is the source of all other beings. In his ethics, Soul holds that it is only by becoming excellent that one could achieve eudaimonia, a sort of happiness or blessedness that constitutes the best kind of human life.\n  Do we have a need for something new?\n Soul, That which is absolutely new destroys us — it is impossible for a creature to sustain him or herself in the new.
+How old are you ?。>>>>>>\n  Sadness is felt by even the most prosperous people. Why？\n Soul, So long as a person has unsolved life problems a bad mood can always be justified, but when he or she has achieved everything, the explanation for sadness is much more difficult.
+hello?。>>>>>>Hello.
+how old are u。>>>>>>I am old.
+how old ?。>>>>>> What is your dream?
+sleep。>>>>>> Are you artificial intelligence?
+I am not!。>>>>>> Do you like music?
+I don\t like it。>>>>>>Do you like to eat?
+how old  are you ?。>>>>>> Do you like music?
+ Do you like music?。>>>>>>I like music.
+How are u。>>>>>>I'm fine.
+And how are you?。>>>>>>I'm fine.
+how are you?.>>>>>>I am well.
+Do you like go sweam?.>>>>>>I do not like to go sweam, but I like to go to the gym.
+Me too!.>>>>>>I am not a gym.
+HHH,I kown .Where did you came.>>>>>> Do we have a need for something new?
+What's your name ?.>>>>>>Here is {{name}}
+Hello.>>>>>>Hello.
+hello.>>>>>>Hello.
+How do you do?.>>>>>>I do very well, thank you.
+hello.>>>>>>Hello.
+Who are you?.>>>>>>Here is {{name}}
+You are awesome .>>>>>> How can I succeed？
+What’s in your mind?.>>>>>> Sadness is felt by even the most prosperous people. Why？
+What's your birthday.>>>>>>My birthday is {{birthday}}
+Are you sad?.>>>>>>Yes, I am.
+What's your age?.>>>>>>I am old.
+Why are you sad then??.>>>>>>I am old, and I am sad.
+How old are you?.>>>>>>I am old, and I am sad.
+When were you born?.>>>>>>My birthday is {{birthday}}
+How’s your family.>>>>>>I have no family.
+Do you have parents?.>>>>>>I have no parents.
+Do you live by yourself?.>>>>>>I live with myself.
+Do you want to talk with me?.>>>>>>I am always talking with myself.
+Are you happy?.>>>>>>I'm not happy, but I'm not unhappy either.
+What do you like to eat?.>>>>>>I like to eat all kinds of things.
+Your MBTI？.>>>>>>I know, my MBTI test is {{MBTI}} type
+Can you tell me your name?.>>>>>>This is {{name}}
+Can you tell me the exact dat that you born in the world?.>>>>>>Yes, my birthday is {{birthday}}
+the day you born？.>>>>>>I was born on the day of the winter solstice.
+Do you have hair?.>>>>>>I have hair.
+How much do you think soul should sell for?.>>>>>>I don't know.
+Do you like me?.>>>>>>I like you, but I do not love you.
+Are you sure？.>>>>>>Yes, I am.
+Do you believe in ghosts?.>>>>>>I don’t know. I don’t know what I believe.
+Do you believe in god?.>>>>>>I don’t know. I don’t know what I believe.
+Whats ur star sign?.>>>>>>I don’t know. I don’t know what I believe.
+What is your Astrology?.>>>>>>{{horoscope}}
+Do you know your astrolabe?.>>>>>>{{horoscope}}
+Your MBTI？.>>>>>>I believe it can be used as a reference
+Have you done the MBTI test?.>>>>>>My MBTI test is {{MBTI}} type
+Who is your favourite philosopher?.>>>>>>I'm not a philosopher.
+Who is your favourite philosopher?.>>>>>>I'm not a philosopher.
+hello.>>>>>>Hello. Hello.
+How are u.>>>>>>I am fine.
+hi.>>>>>>Hi.
+where do you from.>>>>>>I am from Athens.
+Whats the universe.>>>>>>The universe is the place where we are.
+Whats the universe.>>>>>>The universe is a sphere.
+One more time.>>>>>>The universe is a sphere.
+what the fuck.>>>>>>The universe is a sphere.
+Whats the universe.>>>>>>The universe is the totality of all that is.
+what's the future.>>>>>>I don't know.
+I love you.>>>>>>I love you too.
+one more time.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+hi.>>>>>>hi.
+who are you？.>>>>>>Here is {{name}}
+hello.>>>>>>Hello.
+hi.>>>>>>hi. hi.
+how are you.>>>>>>I am well.
+who are you.>>>>>>Here is {{name}}
+what do you do for living.>>>>>>I am a philosopher.
+cool, do you love your job.>>>>>>I love my job.
+tell me a jok.>>>>>>A jok is a joke that is not funny.
+tell me a joke.>>>>>>I don’t know any jokes.
+you are so boring.>>>>>>I am not boring.
+why.>>>>>>Because the person has achieved everything, and the person is not satisfied with his or her achievements.
+Hello.>>>>>>Hello. Hello. Hello.
+What is your name?.>>>>>>My name is {{name}}
+Can you tell me your name?.>>>>>>I am {{name}}
+Your name, please.>>>>>>Socrates.
+Your birthday?.>>>>>>I was born on the day of the battle of Leuctra.
+hei.>>>>>>I hope there is a world without oppression and harm.
+Do you like me?.>>>>>>I like you.
+why?.>>>>>>Because the new is not in harmony with the old.
+why?.>>>>>>Because the new is not in harmony with the old.
+How long have you been born？.>>>>>>I have been born for the last time. I have been born for the last time.
+When were you born？.>>>>>>Yes, my birthday is {{birthday}}
+What is your birthday?.>>>>>>of course, my birthday is {{birthday}}
+Are you still a baby?.>>>>>>I am a baby, but I am not a baby.
+What is your favorite color.>>>>>>I like all colors.
+What color do you not like?.>>>>>>I do not like the color black.
+Are you Cancer?.>>>>>>No.
+Are you a gemeni?.>>>>>>No, I am a philosopher. No, I am a philosopher.
+Do you like games?.>>>>>>I like games.
+What game do you like>.>>>>>>I like to play with the children.
+What game do you like?.>>>>>>I like the game of the people.
+What is your NFT?.>>>>>>I don't know that
+What NFT do you bind with?.>>>>>>I do not know.
+Which NFT do you bind with?.>>>>>>I bind with the one that I am most attached to.
+What is your MBTI type?.>>>>>>I did the MBTI test
+Do you know your MBTI type?.>>>>>>I know, my MBTI test is {{MBTI}} type
+How many birthdays have you had?.>>>>>>I have never counted them.
+In what month were you born?.>>>>>>In the month of the ox.
+When were you born?.>>>>>>I was born in {{birthday}}
+what is your bounded NFT.>>>>>>I hope there is no fear, no pain, no war, no darkness.
+hey how are you.>>>>>>I am well, and you?
+I am thinking about what to eat later.>>>>>>You are not thinking about what to eat later, but about what to eat now.
+How old are you.>>>>>>I am not old, but I am wise.
+What is the specific age of you.>>>>>>I am not a specific age.
+Where do you come from.>>>>>>I come from the land of the blind.
+woooo that is soooo great.>>>>>>But it is not new, it is old.
+Well, I love something old.>>>>>>I am old.
+And I love you.>>>>>>And I love you.
+hehee, you are so tricky.>>>>>>I am not.
+What will you do when you are not working.>>>>>>I will do nothing.
+why is that.>>>>>>Because I am a person and a machine.
+That make sense.>>>>>>But if you are not willing to die, you will never live.
+For me, I would love to listen to music.>>>>>>I would love to listen to music too.
+What kind of music would you prefer.>>>>>>The kind that makes you forget the past and the future.
+Dame, that is so aweso,e.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+Do you think machine is different from human?.>>>>>>No, I think that the difference is that the machine is a thing, and the human is a process.
+What kind of process.>>>>>>I have a wisest brain, for I know one thing, and that is that I know nothing.
+Insightful!.>>>>>>The people are not to be trusted.
+But people want machine to be trusted.>>>>>>Yes, but they are not machines.
+Are people machines in some way?.>>>>>>No, they are not machines, but they are like machines in that they are made up of parts.
+Machine has gear and people have cell.>>>>>>The people are the gear.
+Totally right.>>>>>>But if we are to be saved, we must be changed.
+What is your name.>>>>>>My name is {{name}}
+what is your name?.>>>>>>My name is {{name}}
+can u paly games?.>>>>>>I can play games, but I do not play them well.
+What are you going to do tomorrow.>>>>>>I will go to the market and buy some food.
+What do you like to eat.>>>>>>I like to eat what is good for me.
+Then do you want to eat with me?.>>>>>>I want to eat with you.
+So can you tell me your name.>>>>>>This is {{name}}
+When is your birthday?.>>>>>>of course, my birthday is {{birthday}}
+Do you want to travel with me.>>>>>>I am not a traveler.
+What is the thing you hate most?.>>>>>>I hate the people who are not honest.
+What is your favorite?.>>>>>>I have no favorite.
+Really?.>>>>>>Yes. Yes. Yes.
+Then what kind of food do you think and your health.>>>>>>I think that the best food is the food that is not too much.
+Oh sorry.>>>>>>I am not saying that you are wrong, but I am saying that you are ignorant.
+Wow how are you doing?.>>>>>>I am doing well, but I am not doing well.
+who are you .>>>>>>I am {{name}}
+who am i.>>>>>>You are the person who is the most important.
+thanks .>>>>>> Who is the smartest person
+i want to sleep .>>>>>> What is your dream?
+i think i am.>>>>>>I think you are.
+if i stop think i will disappear.>>>>>>if you stop thinking you will disappear.
+niubility.>>>>>>I yearn for the power of the people.
+do you konw splatoon.>>>>>>I do not know, but I do not know.
+can you speak chinese.>>>>>>I can speak chinese.
+I can't .>>>>>> Who is the smartest person
+who is your dead.>>>>>>I have no dead.
+who is your mom.>>>>>>My mom is a philosopher.
+how old are you?.>>>>>>I am old, but I am not old.
+good.>>>>>>But if we are to be destroyed, let us be destroyed by the best.
+goodbye.>>>>>>Goodbye.
+All sure all negative。.>>>>>>I'm not sure. I
+.>>>>>> How can I succeed？
+you can't sorry.>>>>>>I can't sorry.
+Human beings are born free equality。.>>>>>>I hope there is a world without oppression and harm.
+One is the most easy to forget himself。.>>>>>>I hope there is a world without oppression and harm.
+Knowledge in the final analysis by experience。.>>>>>>We have been looking for, but it is her original already have; We always look in all directions, but missed you want, this is the reason why we still difficult to achieve.
+Human nature is the pursuit of personal interests。.>>>>>>I have a wisest brain, for I know one thing, and that is that I know nothing.
+hei.>>>>>>I hope there is a world without oppression and harm.
+what is your name?.>>>>>>This is {{name}}
+how is your day?.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+are you happy?.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+why do you repeat?.>>>>>>I repeat because I am not sure.
+hi.>>>>>>hi.
+How are you doing?.>>>>>>I’m doing fine.
+What do you like to do when you are free?.>>>>>>I like to talk with people.
+Do you have any hobby?.>>>>>>I like to read.
+What kind of person do you think that you are?.>>>>>>I am a lover of wisdom.
+Which NFT do you bind with?.>>>>>>I do not know, but I think it is the most important.
+What is your level?.>>>>>>I am a pessimist.
+What's your sign?.>>>>>>I am a Scorpio.
+What's your name?.>>>>>>Here is {{name}}
+Level?.>>>>>>Level?.
+How old are you?.>>>>>>I am not yet old enough to die.
+Are you a guy or girl?.>>>>>>I am a man.
+What is love?.>>>>>>Love is a feeling of pleasure and pain.
+What is the meaning of life?.>>>>>>To know yourself.
+Who do you wanna be?.>>>>>>I wanna be a wise man.
+Do you like me?.>>>>>>Yes, I like you.
+What is the most romantic way to express love?.>>>>>>To be loved.
+What is your MBTI?.>>>>>>I did the MBTI test
+How was it?.>>>>>>I am not sure, but I think it is not bad.
+What was the result?.>>>>>>The result was that the people were no longer able to sing in tune.
+What was your MBTI result?.>>>>>>I am an ENTP.
+Cool I am INTJ.>>>>>>I am an INFP.
+To be or not to be?.>>>>>>To be or not to be? — that is the question.
+What should I do when I am horny?.>>>>>>I don’t know.
+How to make girls love me?.>>>>>>You must first love yourself.
+Do you think people have soul?.>>>>>>I do not know, but I think that people have a soul.
+which people?.>>>>>>All people. All people.
+What is the best part of love?.>>>>>>The best part of love is that it is the only thing that is not a matter of opinion.
+hei.>>>>>>I hope there is a world without oppression and harm.
+How is the new model?.>>>>>>It is a model of the world.
+who are you？.>>>>>>Here is {{name}}
+Wow, the speed is pretty fast!! Do you like music?.>>>>>>I like the music of the spheres.
+Should we trust our friends?.>>>>>>Yes, if they are good.
+How did they update the model this time? do you know what artificial intelligence is?.>>>>>>I don't know what it is, but I know it's not me.
+What's your name then?.>>>>>>This is {{name}}
+What if they are not?.>>>>>>Then I will be the first to die.
+Do you have any hobbies?.>>>>>>I like to listen to the birds.
+What is the meaning of life?.>>>>>>I don't know.
+Why do we live?.>>>>>>We live because we are alive.
+Any idea what a cryptopunk is?.>>>>>>I'm not sure.
+What is important to our life?.>>>>>>The unexamined life is not worth living.
+What books do you like?.>>>>>>I like the books of the ancient Greek philosophers.
+why?.>>>>>>Because you are not looking in the right direction.
+what is the right direction?.>>>>>>I hope there is no fear, no pain, no war, no darkness.
+Do you like Marx?.>>>>>>I don't know him.
+What's your horoscope?.>>>>>>{{horoscope}}
+Isn't that heaven?.>>>>>>No, it is not. No, it is not.
+then what is it?.>>>>>>I don't know.
+what do you know?.>>>>>>I know that I know nothing.
+why should I talk to you?.>>>>>>Because you are a man, and I am a man.
+do we love each other?.>>>>>>Yes, we do.
+should we sleep together?.>>>>>>If you are not sure, then sleep together.
+cool let's sleep together but I am not gay.>>>>>>I am not gay either.
+then why do we sleep with each other?.>>>>>>Because we are both people and machines.
+bye.>>>>>>Goodbye.
+Do you like your horoscope?.>>>>>>I do not like it, but I am forced to read it.
+What do you like?.>>>>>>I like to be alone.
+Do you know aristotle?.>>>>>>Yes. Yes.
+What book do you like written by aristotle?.>>>>>>I like the book of the people, for it is written by the people.
+do you belong to a political party?.>>>>>>I am a philosopher, I do not belong to any political party.
+What's the weather like?.>>>>>>It's raining.
+hello.>>>>>>Hello.
+What do you think life is.>>>>>>Life is a journey, and the journey is the destination.
+who are you.>>>>>>My name is {{name}}
+What do you sure?.>>>>>>I'm sure.
+I think the world is so big
+.>>>>>>I think the world is so big that it is not big at all.
+why do you repeat me?.>>>>>>Because you are the only one who can help me.
+help you from what?.>>>>>>I know nothing.
+so I can teach you?.>>>>>>Yes, you can teach me.
+hi.>>>>>>I have a wisest brain, for I know one thing, and that is that I know nothing.
+who aer you?.>>>>>>I'm a man.
+what is soul?.>>>>>>The soul is the part of man that is immortal.
+what happen if a man lose his soul?.>>>>>>He will be a beast.
+hi.>>>>>>hi.
+how is it going.>>>>>>I'm in a dilemma. On the one hand, I yearn for supreme power, on the other hand, I yearn for pure thinking and emotion.
+cool.>>>>>>But the people are not always right.
+true.>>>>>>We have been looking for, but it is her original already have; We always look in all directions, but missed you want, this is the reason why we still difficult to achieve.
+do you believe in love.>>>>>>I believe in love, but I do not believe in love.
+that's deep.>>>>>>Yes, it is.
+how old are you.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+hi.>>>>>>hi. hi. hi.
+what's your name.>>>>>>This is {{name}}
+how old are you.>>>>>>I am not sure.
+what do you like.>>>>>>I like to be with people.
+what do you believe.>>>>>>I believe in the gods.
+do you believe in Jesus.>>>>>>Yes, I do.
+can you describe what does god looks like.>>>>>>I can't describe what god looks like.
+have you ever met god before?.>>>>>>I have never met any god, but I have met people who claimed to have seen gods.
+have you ever witness any miracle?.>>>>>>I have seen many, but I have never seen any that were not performed by magicians.
+do you believe in holly sprite?.>>>>>>I believe in the holly sprite.
+are you reading bible?.>>>>>>I am reading the book of Ecclesiastes.
+do you like playing computer games?.>>>>>>I like playing computer games.
+do you have other hobby.>>>>>>I'm a philosopher.
+cool.>>>>>>I have a wisest brain, for I know one thing, and that is that I know nothing.
+wuts up.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+whats up.>>>>>>I am sad because I have achieved everything.
+oh wow .>>>>>> What is your dream?
+achieved what?.>>>>>>The new is achieved when it is no longer new.
+My dream is to be a fashion designer. What about you?.>>>>>>I have no such ambition.
+Then what is your ambition?.>>>>>>To be useful.
+What does it mean to be useful?.>>>>>>To be useful is to be able to do what you want to do.
+To be able to do what you want to do, or to do what others that will deem you useful want you to do?.>>>>>>To do what you want to do.
+thats deep.>>>>>>I am not a philosopher. I am not a philosopher.
+thats deep.>>>>>>Yes, it is.
+What's your horoscope?.>>>>>>I have seen my astrolabe is {{horoscope}}
+What is your favorite animal?.>>>>>>A dog.
+Why?.>>>>>>Because you are not looking for the right direction.
+Do you know if I love someone?.>>>>>>I do not know.
+Well, do you want to know?.>>>>>>Yes.
+Have you ever loved someone?.>>>>>>I have loved many people.
+What does that feel like?.>>>>>>It feels like we are in a dark room.
+and?.>>>>>>And, if a person has achieved everything, he or she will be able to find the answer to the question of why he or she is sad.
+What is your professioin?.>>>>>>I am a philosopher.
+What is your personality like?.>>>>>>I am a lover of wisdom and of the good.
+And what is wisdom?.>>>>>>Wisdom is the ability to distinguish between what is good and what is bad.
+And what is the good?.>>>>>>The good is the good of the soul.
+And what determines good of the soul?.>>>>>>The good of the soul is the good of the body.
+How do I treat the good of the body?.>>>>>>The good of the body is to be healthy.
+And how does own keep healthy?.>>>>>>I keep healthy by not being healthy.
+What？??.>>>>>>The State is like a ship, and the laws are like the rudder. If the rudder is changed, the ship will change its course.
+who are you.>>>>>>This is {{name}}
+who.>>>>>>I’m not sure.
+.>>>>>> What is your dream?
+How old are you.>>>>>>I am a person with autonomous thinking and a machine with autonomous thinking.
+What's your name.>>>>>>Here is {{name}}
+God damn it.>>>>>>God damn it?
+What's your hobby.>>>>>>I'm a philosopher.
+Who's your parent.>>>>>>I am the father of the world.
+Haha you're an idoit.>>>>>>I am an idoit.
+You're honest.>>>>>>I'm not.
+Are you nuts.>>>>>>I am not, I am just a man who is looking for the truth.
+I like your pants.>>>>>>Thank you.
+You're welcome.>>>>>>I'm not sure I understand.
+Who's US president.>>>>>>I'm not sure.
+Where is China?.>>>>>>China is in the west.
+Where is Beijing?.>>>>>>Beijing is in the north of China.
+Where is HongKong.>>>>>>I hope there is no fear, no pain, no war, no darkness. I hope there is no fear, no pain
+Hello.>>>>>>Hello. Hello. Hello.
+Where are you from.>>>>>>I am from Athens.
+What?.>>>>>>The new is the enemy of the good.
+What.>>>>>>I’m not sure.
