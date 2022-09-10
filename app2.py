@@ -10,7 +10,7 @@ import json
 from split_text import SplitSentence
 from wrapper_consul import Consul, GetServiceUrl
 import socket
-
+import waitress
 split_sentence = SplitSentence()
 app = Flask(__name__)
 puncs_fine = ['……', '\r\n', '，', '。', ';', '；', '…', '！',
@@ -192,7 +192,8 @@ if __name__ == '__main__':
     print(host)
     consul_client.RegisterService(args.name, host, args.port)
     try:
-        app.run(debug=args.debug, host='0.0.0.0', port=args.port)
+        waitress.serve(app, debug=args.debug, host='0.0.0.0', port=args.port)
+        # app.run(debug=args.debug, host='0.0.0.0', port=args.port)
     except Exception as e:
         print(e)
     finally:
