@@ -192,7 +192,7 @@ if __name__ == '__main__':
     print(host)
     consul_client.RegisterService(args.name, host, args.port)
     try:
-        waitress.serve(app, debug=args.debug, host='0.0.0.0', port=args.port)
+        waitress.serve(app, debug=args.debug, host='0.0.0.0', port=args.port, threads=20)
         # app.run(debug=args.debug, host='0.0.0.0', port=args.port)
     except Exception as e:
         print(e)
