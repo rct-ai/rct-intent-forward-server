@@ -19,13 +19,15 @@ puncs_fine = ['……', '\r\n', '，', '。', ';', '；', '…', '！',
 count = 0
 import json
 
-with open("intent.json", "rb") as f:
+with open("intent.json", "rb") as f, open('intent_plus.json', 'r') as f2:
     zh_en = json.load(f)
+    plus_intent = json.load(f2)
+    plus_intent.update(zh_en)
 # zh_en={"询问bot基本信息":"ask_for_bot_informations","表示意见":"express_opinions","表达不满焦虑":"negative_emotions_agitated","消极情绪羞辱":"negative_emotions_insult","表示沮丧":"negative_emotions_unhappy","表示礼貌":"polite_behavior","常规事件":"regular_event","表示歉意":"user_apologize_to_bot","表示关心":"user_care_about","表示安慰":"user_comfort_bot","表示失落":"user_emotion_in_low_spirits","表示侮辱":"user_express_abuse","表示很开心":"user_express_mood_great","表示分享":"user_express_share","表示问候":"user_greetings","表示短暂告别":"user_polite_say_goodbye","表示赞美":"user_praised","分享负面事件":"user_share_negative_events","分享积极事件":"user_share_positive_events","表示感谢":"user_thank"}
 with open("intent_sanji.json", "rb") as f:
     sanji_json = json.load(f)
     print(sanji_json)
-print(zh_en)
+print(plus_intent)
 tags_zh_en = {"中性意图": "neutral", "正向意图": "positive", "负向意图": "negative"}
 
 
@@ -82,7 +84,7 @@ def query_ernie(inpu):
     print(response.json())
     if "result" in response.json():
         result = response.json()["result"]["content"]
-        return {"category": zh_en.get(result, "others")}
+        return {"category": plus_intent.get(result, "others")}
     else:
         return response.json()["error_msg"]
 
@@ -107,7 +109,7 @@ def query_cpm(text):
     response = requests.request("POST", url, headers=headers, data=payload)
 
     print(response.text)
-    category = zh_en.get(response.json()["new_sentence"].replace("《", "").replace("》", ""), "others")
+    category = plus_intent.get(response.json()["new_sentence"].replace("《", "").replace("》", ""), "others")
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
 
 
@@ -141,6 +143,19 @@ def query_EN(text):
 def index():
     return render_template('index.html')
 
+@app.route('/update_intent', methods=['POST'])
+def update():
+    params = request.get_json()
+    with open('intent_plus.json', 'r+', encoding='utf-8') as intent_f:
+        da = json.load(intent_f)
+        da.update(params)
+        intent_f.seek(0)
+        intent_f.truncate()  # 清空文件
+        intent_f.write(json.dumps(da, ensure_ascii=False))
+
+    plus_intent.update(params)
+    print(plus_intent)
+    return jsonify({"result": "Updated!"})
 
 @app.route("/api-v1/bot/get_response/", methods=["POST"])
 def query():
@@ -192,10 +207,10 @@ if __name__ == '__main__':
     print(host)
     consul_client.RegisterService(args.name, host, args.port)
     try:
-        waitress.serve(app, debug=args.debug, host='0.0.0.0', port=args.port, threads=20)
+        waitress.serve(app, host='0.0.0.0', port=args.port, threads=20)
         # app.run(debug=args.debug, host='0.0.0.0', port=args.port)
     except Exception as e:
         print(e)
     finally:
-        consul_client.UnregisterService()
+       consul_client.UnregisterService()
 
