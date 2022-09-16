@@ -28,6 +28,9 @@ with open("intent_sanji.json", "rb") as f:
     sanji_json = json.load(f)
     print(sanji_json)
 print(plus_intent)
+with open('theme.json', "r") as f:
+    themes = json.load(f)
+    print(themes)
 tags_zh_en = {"中性意图": "neutral", "正向意图": "positive", "负向意图": "negative"}
 
 
@@ -137,6 +140,34 @@ def query_EN(text):
     response = requests.post('http://52.53.227.127:8000/v1/completions', headers=headers, data=data)
     category = "_".join(response.json()["choices"][0]["text"].split(" "))
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
+
+
+@app.route('/theme', methods=['POST'])
+def theme():
+    url = "http://172.26.183.115:8015/z"
+
+    payload = json.dumps({
+        "prompt": f"\"{text} \n\n这句话的主题是: ",
+        "number": 1,
+        "length": 150,
+        "top_p": 1,
+        "top_k": 1,
+        "temperature": 0.8,
+        "strategy": "append"
+    })
+    headers = {
+        'User-Agent': 'apifox/1.0.0 (https://www.apifox.cn)',
+        'Content-Type': 'application/json'
+    }
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+
+    print(response.text)  # 情感、游戏\"
+    category = plus_intent.get(response.json()["new_sentence"].replace('\\"', ""), "others")
+    categorys = category.strip().split('、')
+    results = list(set([t for t in categorys if t in themes]))
+    print('、'.join(results))
+    return '、'.join(results)
 
 
 @app.route('/')
