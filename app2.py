@@ -229,7 +229,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="Intent forward server")
     parser.add_argument('--port', type=int, default=8077, help='The server port')
-    parser.add_argument('--debug', type=bool, default=True, help='Is debug modal')
+    #parser.add_argument('--debug', type=bool, default=True, help='Is debug modal')
     parser.add_argument('--name', type=str, default='intent', help='The server name')
     args = parser.parse_args()
     consul_client = Consul()
