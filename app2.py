@@ -144,6 +144,8 @@ def query_EN(text):
 
 @app.route('/theme', methods=['POST'])
 def theme():
+    params = request.get_json()
+    text = params['sentence']
     url = "http://172.26.183.115:8015/z"
 
     payload = json.dumps({
@@ -167,7 +169,7 @@ def theme():
     categorys = category.strip().split('、')
     results = list(set([t for t in categorys if t in themes]))
     print('、'.join(results))
-    return '、'.join(results)
+    return '、'.join(results), 200
 
 
 @app.route('/')
