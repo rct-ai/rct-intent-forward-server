@@ -19,6 +19,7 @@ puncs_fine = ['……', '\r\n', '，', '。', ';', '；', '…', '！',
 count = 0
 import json
 
+
 with open("intent.json", "rb") as f, open('intent_plus.json', 'r') as f2:
     zh_en = json.load(f)
     plus_intent = json.load(f2)
@@ -31,6 +32,10 @@ print(plus_intent)
 with open('theme.json', "r") as f:
     themes = json.load(f)
     print(themes)
+
+with open('urls.json', "r") as f:
+    urls = json.load(f)
+
 tags_zh_en = {"中性意图": "neutral", "正向意图": "positive", "负向意图": "negative"}
 
 
@@ -93,7 +98,7 @@ def query_ernie(inpu):
 
 
 def query_cpm(text):
-    url = "http://172.26.183.115:8015/z"
+    url = urls.get('intent_url')
 
     payload = json.dumps({
         "prompt": f"句子：{text} 意图：",
@@ -132,12 +137,12 @@ def query_EN(text):
         'User-Agent': 'Apipost client Runtime/+https://www.apipost.cn/',
         'Content-Type': 'application/json',
     }
-
+    url = urls.get('intent_en_url')
     data = json.dumps(
         {"prompt": f"{text} \nIntent:", "max_tokens": 50, "top_p": 0.9, "temperature": 0.95, "frequency_penalty": 0.3,
          "presence_penalty": 1, "model": "davinci:ft-rct-studio:text-davinci-001-2022-04-15-08-21-56", "stop": ["\n"]})
 
-    response = requests.post('http://52.53.227.127:8000/v1/completions', headers=headers, data=data)
+    response = requests.post(url, headers=headers, data=data)
     category = "_".join(response.json()["choices"][0]["text"].split(" "))
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
 
@@ -146,7 +151,7 @@ def query_EN(text):
 def theme():
     params = request.get_json()
     text = params['sentence']
-    url = "http://172.26.183.115:8015/z"
+    url = urls.get('theme_url')
 
     payload = json.dumps({
         "prompt": f"\"{text} \n\n这句话的主题是: ",
@@ -165,7 +170,8 @@ def theme():
     response = requests.request("POST", url, headers=headers, data=payload)
 
     print(response.text)  # 情感、游戏\"
-    category = plus_intent.get(response.json()["new_sentence"].replace('\\"', ""), "others")
+    category = response.json()["new_sentence"].replace('\\', "").replace('"', '')
+
     categorys = category.strip().split('、')
     results = list(set([t for t in categorys if t in themes]))
     print('、'.join(results))
@@ -246,4 +252,3 @@ if __name__ == '__main__':
         print(e)
     finally:
        consul_client.UnregisterService()
-
