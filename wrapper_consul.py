@@ -18,7 +18,7 @@ class Consul(object):
     def RegisterService(self, name, host, port, tags=None):
         tags = tags or []
         # 注册服务
-        self.service_id = name + "-" + str(uuid.uuid4())
+        self.service_id = name + "-" + host + "-" + str(port)
         self.name = name
         self._consul.agent.service.register(
             name,
