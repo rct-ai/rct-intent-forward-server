@@ -154,7 +154,7 @@ def theme():
     url = urls.get('theme_url')
 
     payload = json.dumps({
-        "prompt": f"\"{text} \n\n这句话的主题是: ",
+        "prompt": f"{text} 这句话的主题是: ",
         "number": 1,
         "length": 150,
         "top_p": 1,
