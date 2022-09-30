@@ -174,8 +174,9 @@ def theme():
 
     categorys = category.strip().split('、')
     results = list(set([t for t in categorys if t in themes]))
-    print('、'.join(results))
-    return '、'.join(results), 200
+    print(f"themes: {results}")
+    return jsonify({"result": results}), 200
+
 
 
 @app.route('/')
