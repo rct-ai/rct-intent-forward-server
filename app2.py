@@ -36,6 +36,9 @@ with open('theme.json', "r") as f:
 with open('urls.json', "r") as f:
     urls = json.load(f)
 
+with open('en_intent_map.json', 'r') as f:
+    en_intent_map = json.load(f)
+
 tags_zh_en = {"中性意图": "neutral", "正向意图": "positive", "负向意图": "negative"}
 
 
@@ -144,6 +147,9 @@ def query_EN(text):
 
     response = requests.post(url, headers=headers, data=data)
     category = "_".join(response.json()["choices"][0]["text"].split(" "))
+    if category in en_intent_map:
+        category = en_intent_map[category]
+
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
 
 
