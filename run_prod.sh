@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONSUL_NAME="intent_prod"
+CONSUL_NAME="intent-prod"
 PORT=8077
 
 CMD="python app.py --name $CONSUL_NAME --port $PORT"
