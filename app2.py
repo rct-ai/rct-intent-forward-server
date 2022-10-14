@@ -244,18 +244,17 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="Intent forward server")
     parser.add_argument('--port', type=int, default=8077, help='The server port')
-    #parser.add_argument('--debug', type=bool, default=True, help='Is debug modal')
     parser.add_argument('--name', type=str, default='intent', help='The server name')
     args = parser.parse_args()
     consul_client = Consul()
     # 服务名字，要唯一,建议算法除了-之外，别加别的特殊符号
     host = get_ip()  # 本地ip，如果是docker部署，主要是宿主机的ip
     print(host)
-    consul_client.RegisterService(args.name, host, args.port)
+    serviceId = consul_client.RegisterService(args.name, host, args.port)
     try:
         waitress.serve(app, host='0.0.0.0', port=args.port, threads=20)
-        # app.run(debug=args.debug, host='0.0.0.0', port=args.port)
+
     except Exception as e:
         print(e)
     finally:
-       consul_client.UnregisterService()
+       consul_client.UnregisterService(serviceId)
