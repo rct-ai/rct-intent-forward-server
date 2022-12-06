@@ -36,7 +36,7 @@ with open('theme.json', "r") as f:
 with open('urls.json', "r") as f:
     urls = json.load(f)
 
-with open('en_intent_map.json', 'r') as f:
+with open('intents.json', 'r') as f:
     en_intent_map = json.load(f)
 
 tags_zh_en = {"中性意图": "neutral", "正向意图": "positive", "负向意图": "negative"}
@@ -143,13 +143,12 @@ def query_EN(text):
     url = urls.get('intent_en_url')
     data = json.dumps(
         {"prompt": f"{text} \nIntent:", "max_tokens": 50, "top_p": 0.9, "temperature": 0, "frequency_penalty": 0.3,
-         "presence_penalty": 1, "model": "davinci:ft-rct-studio:text-davinci-001-2022-04-15-08-21-56", "stop": ["\n"]})
+         "presence_penalty": 1, "model": "davinci:ft-rct-studio-2022-11-21-05-32-22", "stop": ["\n"]})
 
     response = requests.post(url, headers=headers, data=data)
     category = "_".join(response.json()["choices"][0]["text"].split(" "))
-    if category in en_intent_map:
-        category = en_intent_map[category]
-    else:
+
+    if category not in en_intent_map:
         category = 'others'
 
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
