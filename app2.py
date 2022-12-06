@@ -142,13 +142,15 @@ def query_EN(text):
     }
     url = urls.get('intent_en_url')
     data = json.dumps(
-        {"prompt": f"{text} \nIntent:", "max_tokens": 50, "top_p": 0.9, "temperature": 0.95, "frequency_penalty": 0.3,
+        {"prompt": f"{text} \nIntent:", "max_tokens": 50, "top_p": 0.9, "temperature": 0, "frequency_penalty": 0.3,
          "presence_penalty": 1, "model": "davinci:ft-rct-studio:text-davinci-001-2022-04-15-08-21-56", "stop": ["\n"]})
 
     response = requests.post(url, headers=headers, data=data)
     category = "_".join(response.json()["choices"][0]["text"].split(" "))
     if category in en_intent_map:
         category = en_intent_map[category]
+    else:
+        category = 'others'
 
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
 
