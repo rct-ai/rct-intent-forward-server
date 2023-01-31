@@ -149,7 +149,7 @@ def query_EN(text):
     category = "_".join(response.json()["choices"][0]["text"].split(" "))
 
     if category not in en_intent_map:
-        category = 'others'
+        category = 'other'
 
     return {"category": category, "tags": tags_zh_en.get(sanji_json.get(category, "中性意图"))}
 
