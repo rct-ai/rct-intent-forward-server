@@ -1,18 +1,10 @@
 services:
-  rct-chatbot-rabbit-online:
-    image: rct-docker-registry.cn-zhangjiakou.cr.aliyuncs.com/algorithm/chatgod:v1
-    runtime: nvidia
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=all
+  rct-intent-forward:
+    image: intent-forward:v1
     ports:
     - 8077:8077
     volumes:
       - ./:/workspace
     working_dir: /workspace
     command: /bin/bash -c "python app2.py" 
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              capabilities: ["gpu"]
+
