@@ -1,5 +1,5 @@
 python-consul
 Flask==2.0.1
 pandas==1.2.4
-requests==2.27.0
+requests==2.31.0
 waitress==2.0.0
